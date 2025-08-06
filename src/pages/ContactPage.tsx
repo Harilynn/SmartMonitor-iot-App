@@ -39,13 +39,13 @@ export default function ContactPage() {
         {/* Header Section */}
         <div className="text-center mb-12 animate-fade-in">
           <h1 className="text-4xl sm:text-5xl font-bold mb-4 bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
-            Contact Me
+            Contact Us
           </h1>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            How can I help you?
+            How can we help you?
           </p>
           <p className="text-sm text-muted-foreground mt-2">
-            Fill in the form or drop an email 📧
+            Fill in the form or drop an email ✉️
           </p>
         </div>
 
@@ -162,7 +162,7 @@ export default function ContactPage() {
                   <Button 
                     type="submit" 
                     size="lg" 
-                    className="w-full hover-dramatic hover-tech-glow bg-gradient-primary text-white border-0 group"
+                    className="w-full bg-gradient-to-r from-primary to-accent text-white border-0 shadow-md hover:shadow-lg transition-all duration-300 group"
                   >
                     <Send className="mr-2 h-4 w-4 group-hover:translate-x-1 transition-transform" />
                     Submit
